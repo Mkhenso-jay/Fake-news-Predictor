@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Optional: data files (if you want to regenerate)
+data/processed/
+
+# Optional: model files and results
+experiments/models/
+experiments/results.csv
+
+# Logs
+*.log
