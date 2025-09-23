@@ -1,21 +1,26 @@
-# Python
+# Byte-compiled / cache files
 __pycache__/
 *.py[cod]
 *.pyo
 
-# Virtual environment
+# Virtual environments
 .venv/
+venv/
+env/
 
-# OS files
+# OS-specific files
 .DS_Store
 Thumbs.db
 
-# data files (if you want to regenerate)
+# Data (processed or temporary)
 data/processed/
 
-#  model files and results
-experiments/models/
+# Models and experiment outputs
+experiments/models/*
+!experiments/models/RandomForest_tuned_final_full.joblib
 experiments/results.csv
+experiments/test_classification_report.csv
+experiments/tuning_results.csv
 
 # Logs
 *.log
