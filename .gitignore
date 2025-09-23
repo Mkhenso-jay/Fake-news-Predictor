@@ -10,10 +10,10 @@ __pycache__/
 .DS_Store
 Thumbs.db
 
-# Optional: data files (if you want to regenerate)
+# data files (if you want to regenerate)
 data/processed/
 
-# Optional: model files and results
+#  model files and results
 experiments/models/
 experiments/results.csv
 
